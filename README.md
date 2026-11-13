@@ -1,5 +1,7 @@
 # meet’cool ✳
 
+[Essayer la version bilingue (aperçu)](https://meetcool-hk5r71d6v-ac-07b0.vercel.app/) · [Dossier pour le professeur](docs/POUR_LE_PROF.md) · [English](README.en.md)
+
 [English](README.en.md) · [Dossier technique pour le professeur](docs/POUR_LE_PROF.md)
 
 Une application pour trouver un lieu de rencontre à partir des départs de plusieurs personnes. L’accueil animé bleu cobalt et menthe conserve son introduction, son fond en relief, ses transformations au défilement, ses panneaux superposés et son manifeste. La partie application en bas de page propose trois étapes coulissantes — création, invitations, lieu — avec une grande carte à droite, dans la même palette.
@@ -121,3 +123,7 @@ Les appels de création, d’acceptation et de confirmation sont simulés : le t
 ### Dossier pour le cours
 
 Le [dossier technique](docs/POUR_LE_PROF.md) détaille les technologies, la circulation des données, les formules et les complexités, les démonstrations Dijkstra/Floyd–Warshall, les limites et la procédure de publication sur Vercel. Le projet a été développé avec une assistance Codex ; cette aide est déclarée dans le dossier. Une [présentation en anglais](README.en.md) est également disponible.
+
+### Choix de langue
+
+Le sélecteur FR/EN est disponible dans l’accueil et l’application. Le choix est conservé sur le navigateur (`meetcool_language`) et les invitations publiques reprennent la langue choisie avec `lang=en` ou `lang=fr`. L’interface, les formulaires invités et les explications du calcul sont traduits localement, sans service de traduction externe. Les noms et adresses saisis sont conservés. Les e-mails transactionnels du serveur restent actuellement en français. Le test navigateur exécute le parcours dans les deux langues.

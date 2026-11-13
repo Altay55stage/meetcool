@@ -1,5 +1,7 @@
 # meet’cool ✳
 
+[Try the bilingual preview](https://meetcool-hk5r71d6v-ac-07b0.vercel.app/?lang=en)
+
 [Français](README.md) · [Technical report for the teacher (French)](docs/POUR_LE_PROF.md)
 
 A meeting planner that compares travel times from several people's departure points. Create a meeting, invite anyone through WhatsApp, email or a public link, then compare and confirm a meeting point. Guests accept before choosing their planned departure or voluntarily sharing their current location. No guest account is required.
@@ -99,3 +101,7 @@ For the browser flow, start a local server on port 8011 and run `node scripts/ch
 - `docs/POUR_LE_PROF.md`: detailed architecture, algorithm explanation, example and deployment report.
 
 This educational prototype was developed with Codex assistance. Its report separates implemented behavior from limitations and future work. Public map services have availability and usage limits; this is not an unrestricted production-scale routing service.
+
+## Language choice
+
+The FR/EN selector is available on the welcome page and in the planner. The browser saves the preference as `meetcool_language`; public invitations include the selected `lang` parameter. Interface translations run locally without an external translation API. User-entered names and addresses are preserved. Server transactional emails currently remain in French. The browser test runs the full flow in both languages.
