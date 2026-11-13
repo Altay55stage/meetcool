@@ -237,7 +237,7 @@ Références officielles utiles : [FastAPI](https://fastapi.tiangolo.com/), [Pyd
 
 ## 11. Version bilingue et dépôt GitHub
 
-Le code et ce dossier sont versionnés dans [Altay55stage/meetcool](https://github.com/Altay55stage/meetcool). Le dépôt est initialement privé : l’accès du professeur nécessite une invitation GitHub ou un changement volontaire de visibilité. Aucun fichier de clé, donnée de rencontre locale ou configuration de compte n’est inclus. La première publication Git correspond à un instantané du projet existant ; elle ne reconstitue pas artificiellement l’historique de développement précédent.
+Le code et ce dossier sont versionnés dans [Altay55stage/meetcool](https://github.com/Altay55stage/meetcool). Le dépôt est public afin que le professeur puisse consulter directement le code et la documentation, sans invitation GitHub. Aucun fichier de clé, donnée de rencontre locale ou configuration de compte n’est inclus. La première publication Git correspond à un instantané du projet existant ; elle ne reconstitue pas artificiellement l’historique de développement précédent.
 
 Le sélecteur FR/EN traduit l’accueil, le parcours organisateur, les formulaires invités et les explications pédagogiques. `static/translations.js` contient le dictionnaire anglais et `static/i18n.js` applique les textes/attributs et conserve la préférence dans le stockage local du navigateur. Les valeurs des formulaires restent intactes lors du changement de langue. Les liens publics portent `lang=fr` ou `lang=en` pour ouvrir l’invitation dans la langue choisie. Aucun service de traduction externe ne reçoit les données. Les e-mails transactionnels restent en français dans cette version.
 
