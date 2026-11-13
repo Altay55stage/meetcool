@@ -1,0 +1,11 @@
+.venv/
+.vercel/
+.omx/
+.pytest_cache/
+__pycache__/
+*.sqlite3
+*.sqlite3-*
+.env*
+!.env.example
+.DS_Store
+.vercel
